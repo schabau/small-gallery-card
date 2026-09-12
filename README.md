@@ -99,9 +99,9 @@ date_position: end
 | `media_path` | String | **Yes** | - | Path to the Media Source, e.g., `media-source://media_source/local/folder_name`. |
 | `max_files` | Number | No | 30 | Maximum number of files displayed in the preview without reloading. |
 | `sort_by` | String | No | *name* | Sort by `name` or `date`. (If `date_format` is configured, it will automatically sort by `date`.) |
+| `order` | String | No | `asc` | Sorting (`asc` from smallest to largest or newest date last; `desc` from largest to smallest or newest date first). |
 | `date_format` | String | No | - | Format of the date string in the filename (e.g., YYMM, hhmm, YYYYMMDD_HHmmss, YYYY-MM-DD_HH-mm-ss) |
 | `date_position` | String | No | - | Position of the date string in the filename, `start` or `end`. |
-| `order` | String | No | `asc` | Sorting (`asc` ascending, small to large; `desc` descending, large to small). |
 
 ---
 
